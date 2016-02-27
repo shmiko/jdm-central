@@ -58,14 +58,14 @@ RocketChat.Migrations.add
 					n: oldChunk.n
 					data: oldChunk.data
 
-			RocketChat.models.Messages.find({$or: [{ 'urls.url': "https://demo.rocket.chat/cfs/files/Files/#{cfsRecord._id}" }, { 'urls.url': "https://rocket.chat/cfs/files/Files/#{cfsRecord._id}" }]}).forEach (message) ->
+			RocketChat.models.Messages.find({$or: [{ 'urls.url': "https://demo.rocket.chat/cfs/files/Files/#{cfsRecord._id}" }, { 'urls.url': "https://jdm-central.herokuapp.com/cfs/files/Files/#{cfsRecord._id}" }]}).forEach (message) ->
 				for urlsItem in message.urls
-					if urlsItem.url is "https://demo.rocket.chat/cfs/files/Files/#{cfsRecord._id}" or urlsItem.url is "https://rocket.chat/cfs/files/Files/#{cfsRecord._id}"
+					if urlsItem.url is "https://demo.rocket.chat/cfs/files/Files/#{cfsRecord._id}" or urlsItem.url is "https://jdm-central.herokuapp.com/cfs/files/Files/#{cfsRecord._id}"
 						urlsItem.url = Meteor.absoluteUrl() + url
 						if urlsItem.parsedUrl?.pathname?
 							urlsItem.parsedUrl.pathname = "/#{url}"
 						message.msg = message.msg.replace "https://demo.rocket.chat/cfs/files/Files/#{cfsRecord._id}", Meteor.absoluteUrl() + url
-						message.msg = message.msg.replace "https://rocket.chat/cfs/files/Files/#{cfsRecord._id}", Meteor.absoluteUrl() + url
+						message.msg = message.msg.replace "https://jdm-central.herokuapp.com/cfs/files/Files/#{cfsRecord._id}", Meteor.absoluteUrl() + url
 
 				RocketChat.models.Messages.update {_id: message._id}, {$set: {urls: message.urls, msg: message.msg}}
 

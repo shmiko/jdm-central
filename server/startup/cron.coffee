@@ -6,7 +6,7 @@ generateStatistics = ->
 	statistics = RocketChat.statistics.save()
 	statistics.host = Meteor.absoluteUrl()
 	unless RocketChat.settings.get 'Statistics_opt_out'
-		HTTP.post 'https://rocket.chat/stats',
+		HTTP.post 'https://jdm-central.herokuapp.com/stats',
 			data: statistics
 	return
 

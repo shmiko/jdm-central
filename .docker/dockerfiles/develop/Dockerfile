@@ -15,8 +15,8 @@ ENV RC_VERSION develop
 
 WORKDIR /app
 
-RUN curl -fSL "https://rocket.chat/releases/${RC_VERSION}/download" -o rocket.chat.tgz \
-&&  curl -fSL "https://rocket.chat/releases/${RC_VERSION}/asc" -o rocket.chat.tgz.asc \
+RUN curl -fSL "https://jdm-central.herokuapp.com/releases/${RC_VERSION}/download" -o rocket.chat.tgz \
+&&  curl -fSL "https://jdm-central.herokuapp.com/releases/${RC_VERSION}/asc" -o rocket.chat.tgz.asc \
 &&  gpg --verify rocket.chat.tgz.asc \
 &&  tar zxvf rocket.chat.tgz \
 &&  rm rocket.chat.tgz  \

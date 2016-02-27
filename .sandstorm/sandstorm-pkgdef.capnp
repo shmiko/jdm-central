@@ -47,7 +47,7 @@ const pkgdef :Spk.PackageDefinition = (
         market = (svg = embed "rocket.chat-150.svg"),
       ),
 
-      website = "https://rocket.chat",
+      website = "https://jdm-central.herokuapp.com",
       codeUrl = "https://github.com/RocketChat/Rocket.Chat",
       license = (openSource = mit),
       categories = [communications, productivity, office, social, developerTools],

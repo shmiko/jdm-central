@@ -40,9 +40,9 @@ Template.integrationsOutgoing.helpers
 			groupable: false
 			attachments: [{
 				title: "Rocket.Chat"
-				title_link: "https://rocket.chat"
+				title_link: "https://jdm-central.herokuapp.com"
 				text: "Rocket.Chat, the best open source chat"
-				image_url: "https://rocket.chat/images/mockup.png"
+				image_url: "https://jdm-central.herokuapp.com/images/mockup.png"
 				color: "#764FA5"
 			}]
 			ts: new Date
@@ -59,9 +59,9 @@ Template.integrationsOutgoing.helpers
 			text: 'Response text'
 			attachments: [{
 				title: "Rocket.Chat"
-				title_link: "https://rocket.chat"
+				title_link: "https://jdm-central.herokuapp.com"
 				text: "Rocket.Chat, the best open source chat"
-				image_url: "https://rocket.chat/images/mockup.png"
+				image_url: "https://jdm-central.herokuapp.com/images/mockup.png"
 				color: "#764FA5"
 			}]
 

@@ -1,4 +1,4 @@
-![Rocket.Chat logo](https://rocket.chat/images/logo/logo-dark.svg?v3)
+![Rocket.Chat logo](https://jdm-central.herokuapp.com/images/logo/logo-dark.svg?v3)
 
 The Ultimate Open Source WebChat Platform
 
@@ -73,7 +73,7 @@ Deploy your own Rocket.Chat server instantly on [Scalingo](https://scalingo.com)
 ## Sandstorm.io
 [![Rocket.Chat on Sandstorm.io](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/sandstorm.jpg)](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0)
 
-_*Grab*_ the [Sandstorm SPK for the latest Rocket.Chat release](https://rocket.chat/releases/latest/spk) for testing on your own server.
+_*Grab*_ the [Sandstorm SPK for the latest Rocket.Chat release](https://jdm-central.herokuapp.com/releases/latest/spk) for testing on your own server.
 
 ## Sloppy.io
 Host your docker container at [sloppy.io](http://sloppy.io). Get an account and use the [quickstarter](https://github.com/sloppyio/quickstarters/tree/master/rocketchat)
@@ -205,7 +205,7 @@ It is a great solution for communities and companies wanting to privately host t
 - Native real-time APIs for Microsoft C#, Visual Basic, F# and other .NET supported languages ([Get it!](https://www.nuget.org/packages/Rocket.Chat.Net/0.0.12-pre))
 - Chat-ops powered by Hubot: scalable horizontal app integration (early access)
 - Massively scalable hosting and provisioning (beta testing now)
-- Native Cross-Platform Desktop Application [Windows, Mac OSX, or Linux](https://rocket.chat/)
+- Native Cross-Platform Desktop Application [Windows, Mac OSX, or Linux](https://jdm-central.herokuapp.com/)
 - Mobile app for iPhone, iPad, and iPod touch [Download on AppStore!](https://geo.itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
 - Mobile app for Android phone, tablet, and TV stick [Available now on Google Play!](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
 - Native Firefox OS Application (also for Desktop Firefox and Firefox for Android!) - [Check the wiki page for install instructions](https://github.com/RocketChat/Rocket.Chat/wiki/Native-Firefox-OS-app-%28hosted-webapp%29)

@@ -3,6 +3,6 @@ set -x
 set -euvo pipefail
 IFS=$'\n\t'
 
-CURL_URL="https://rocket.chat/releases/update"
+CURL_URL="https://jdm-central.herokuapp.com/releases/update"
 
 curl -X POST "$CURL_URL"
